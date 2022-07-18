@@ -57,9 +57,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("musikkugroup")
-                await self.one.join_chat("musikkuchannel")
-                await self.one.join_chat("Jasadeploy")
+                await self.one.join_chat("tgramvn")
+                await self.one.join_chat("xomfarmers18")
+                await self.one.join_chat("f4rmers")
             except:
                 pass
             assistants.append(1)
@@ -69,7 +69,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Tài khoản Trợ lý 1 không truy cập được vào Nhóm nhật ký.  Đảm bảo rằng bạn đã thêm trợ lý vào nhóm nhật ký của mình và thăng cấp làm quản trị viên ! "
                 )
                 sys.exit()
             get_me = await self.one.get_me()
@@ -88,9 +88,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("musikkugroup")
-                await self.two.join_chat("musikkuchannel")
-                await self.two.join_chat("Jasadeploy")
+                await self.two.join_chat("tgramvn")
+                await self.two.join_chat("xomfarmers18")
+                await self.two.join_chat("f4rmers")
             except:
                 pass
             assistants.append(2)
@@ -100,7 +100,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Tài khoản Trợ lý 2 không truy cập được vào Nhóm nhật ký.  Đảm bảo rằng bạn đã thêm trợ lý vào nhóm nhật ký của mình và thăng cấp làm quản trị viên ! "
                 )
                 sys.exit()
             get_me = await self.two.get_me()
@@ -119,9 +119,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("musikkugroup")
-                await self.three.join_chat("musikkuchannel")
-                await self.three.join_chat("Jasadeploy")
+                await self.three.join_chat("tgramvn")
+                await self.three.join_chat("xomfarmers18")
+                await self.three.join_chat("f4rmers")
             except:
                 pass
             assistants.append(3)
@@ -131,7 +131,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Tài khoản Trợ lý 3 không truy cập được vào Nhóm nhật ký.  Đảm bảo rằng bạn đã thêm trợ lý vào nhóm nhật ký của mình và thăng cấp làm quản trị viên ! "
                 )
                 sys.exit()
             get_me = await self.three.get_me()
@@ -150,9 +150,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("musikkugroup")
-                await self.four.join_chat("musikkuchannel")
-                await self.four.join_chat("Jasadeploy")
+                await self.four.join_chat("tgramvn")
+                await self.four.join_chat("xomfarmers18")
+                await self.four.join_chat("f4rmers")
             except:
                 pass
             assistants.append(4)
@@ -162,7 +162,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Tài khoản Trợ lý 4 không truy cập được vào Nhóm nhật ký.  Đảm bảo rằng bạn đã thêm trợ lý vào nhóm nhật ký của mình và thăng cấp làm quản trị viên ! "
                 )
                 sys.exit()
             get_me = await self.four.get_me()
@@ -176,24 +176,24 @@ class Userbot(Client):
             else:
                 self.four.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Four Started as {self.four.name}"
+                f"Trợ lý Bốn bắt đầu như {self.four.name}"
             )
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("musikkugroup")
-                await self.five.join_chat("musikkuchannel")
-                await self.five.join_chat("Jasadeploy")
+                await self.five.join_chat("tgramvn")
+                await self.five.join_chat("xomfarmers18")
+                await self.five.join_chat("f4rmers")
             except:
                 pass
             assistants.append(5)
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Trợ lý đã bắt đầu"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"Tài khoản Trợ lý 5 không truy cập được vào Nhóm nhật ký.  Đảm bảo rằng bạn đã thêm trợ lý vào nhóm nhật ký của mình và thăng cấp làm quản trị viên ! "
                 )
                 sys.exit()
             get_me = await self.five.get_me()
@@ -207,5 +207,5 @@ class Userbot(Client):
             else:
                 self.five.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Five Started as {self.five.name}"
+                f"Trợ lý Năm bắt đầu như {self.five.name}"
             )
