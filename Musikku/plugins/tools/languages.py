@@ -25,12 +25,12 @@ def lanuages_keyboard(_):
         keyboard = InlineKeyboard(row_width=2)
         keyboard.row(
             InlineKeyboardButton(text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 English", callback_data=f"languages:en"),
-            InlineKeyboardButton(text="🇮🇩 Indonesia", callback_data=f"languages:id"),
+    #        InlineKeyboardButton(text="🇮🇩 Indonesia", callback_data=f"languages:id"),
         )
-        keyboard.row(
-            InlineKeyboardButton(text="🇮🇩 Jawa", callback_data=f"languages:jawa"),
-            InlineKeyboardButton(text="🇮🇩 Sunda", callback_data=f"languages:sunda"),
-        )
+  #      keyboard.row(
+ #           InlineKeyboardButton(text="🇮🇩 Jawa", callback_data=f"languages:jawa"),
+   #         InlineKeyboardButton(text="🇮🇩 Sunda", callback_data=f"languages:sunda"),
+    #    )
         keyboard.row(
             InlineKeyboardButton(text=_["BACK_BUTTON"], callback_data=f"settingsback_helper"),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=f"close"),
