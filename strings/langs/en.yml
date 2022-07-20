@@ -1,4 +1,4 @@
-name : English
+name : Tiếng Việt
 
 # General Strings
 general_1 : "Reply to a user's message or give username/user_id."
@@ -33,7 +33,7 @@ auth_4 : "Removed from Authorised Users List of this Group."
 auth_5 : "Targeted user is not an Authorised User."
 auth_6 : "Fetching Authorised Users... Please Wait"
 auth_7 : "**Authorised Users List[AUL]:**\n\n"
-auth_8 : "┗ Added By:-"
+auth_8 : "┗ Thêm bởi:-"
 
 # PLUGINS - Admins
 admin_1 : "Music is already Paused."
@@ -134,7 +134,7 @@ playcb_1 : "This is not for you! Search You Own Song."
 playcb_2 : "Getting Next Result"
 
 # Channel Play
-cplay_1 : "You can play music in channels from this chat[{0}] to any channel or your chat's linked channel.\n\n**For linked channel:**\n`/{1} linked`\n\n**For any other channel:**\n`/{1} [Channel ID]`"
+cplay_1 : "Bạn có thể phát nhạc trong các kênh từ cuộc trò chuyện này[{0}] đến bất kỳ kênh nào hoặc kênh được liên kết trong cuộc trò chuyện của bạn.\n\n**Đối với kênh liên kết:**\n`/{1} linked`\n\n**Đối với bất kỳ kênh nào khác:**\n`/{1} [Channel ID]`"
 cplay_2 : "This chat has no linked channel."
 cplay_3 : "Channel Defined to {0}\n\n__Channel ID__: {1}"
 cplay_4 : "Failed to get channel.\n\nMake sure you have added bot in your channel and promoted it as admin.\nEdit or Change channel via /channelplay"
