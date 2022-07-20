@@ -40,7 +40,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("MusikkuMusic").warning(
-            "Không có Spotify Vars nào được chỉ định.  Bot của bạn sẽ không thể phát các truy vấn spotify.
+            "Không có Spotify Vars nào được chỉ định.  Bot của bạn sẽ không thể phát các truy vấn spotify."
          )
     try:
         users = await get_gbanned()
