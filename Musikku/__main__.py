@@ -40,8 +40,8 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("MusikkuMusic").warning(
-            "Tidak ada Spotify Vars yang ditentukan. Bot Anda tidak akan dapat memainkan kueri spotify."
-        )
+            "Không có Spotify Vars nào được chỉ định.  Bot của bạn sẽ không thể phát các truy vấn spotify.
+         )
     try:
         users = await get_gbanned()
         for user_id in users:
@@ -55,18 +55,18 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("Musikku.plugins" + all_module)
     LOGGER("Musikku.plugins").info(
-        "Modul Berhasil Diimpor"
+        "Đã nhập thành công mô-đun"
     )
     await userbot.start()
     await Musikku.start()
     get_ah = await app.get_me()
     uh_ah = get_ah.username
-    await userbot.one.send_message("musikkugroup", f"@{uh_ah}")
+    await userbot.one.send_message("ZingMp3Log", f"@{uh_ah}")
     await Musikku.decorators()
-    LOGGER("Musikku").info("Musikku Music Bot Berhasil Dimulai")
+    LOGGER("Musikku").info("Bot âm nhạc của tôi đã bắt đầu thành công")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("Musikku").info("Menghentikan Bot Musikku! Selamat tinggal")
+    LOGGER("Musikku").info("Stop My Music Bot!  Tạm biệt")
