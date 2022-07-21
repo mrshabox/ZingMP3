@@ -23,17 +23,17 @@ def ken(func):
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"**Hay kak {rpk}, Silahkan join dulu biar bisa pake bot ini kak**",
+                        f"**Hi {rpk}, hãy theo dõi kênh trước để bạn có thể sử dụng bot này nhé**",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
-                            [[InlineKeyboardButton("••ꜱɪʟᴀʜᴋᴀɴ ᴊᴏɪɴ••", url=link)]]
+                            [[InlineKeyboardButton("👉 Theo dõi channel", url=link)]]
                         ),
                     )
                     await message.stop_propagation()
                 except ChatWriteForbidden:
                     pass
         except ChatAdminRequired:
-            await message.reply(f"Saya bukan admin di: {config.MUST_JOIN}!")
+            await message.reply(f"Tôi không phải là quản trị viên tại: {config.MUST_JOIN}!")
         return await func(_, message)
 
     return wrapper
