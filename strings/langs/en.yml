@@ -6,7 +6,7 @@ general_2 : "Lỗi! Sử dụng sai lệnh."
 general_3 : "Một số **ngoại lệ đã xảy ra** trong khi xử lý truy vấn của bạn..\n\nException Type:- {0}"
 general_4 : "Bạn là quản trị viên ẩn danh trong nhóm trò chuyện này!\nVui lòng không ra lệnh cho tôi khi bạn đang ẩn danh."
 general_5 : "Bạn cần là quản trị viên có quyền quản lý trò chuyện thoại để thực hiện tác vụ này."
-general_6 : " Bot không phát trực tuyến trên trò chuyện thoại."
+general_6 : "Bot không phát trực tuyến trên trò chuyện thoại."
 
 # Classes - Telegram.py
 tg_1 : "Bot đang **quá tải** với lượt tải xuống ngay bây giờ.\n\n**Thử lại sau: ** {0} (__expected time__)"
@@ -19,8 +19,8 @@ call_3 : "Đã xảy ra ngoại lệ khi mời Tài khoản Trợ lý vào cuộ
 call_4 : "Bot yêu cầu **Mời người dùng thông qua liên kết** quyền mời tài khoản trợ lý vào nhóm trò chuyện của bạn."
 call_5 : "Tài khoản Trợ lý sẽ tham gia sau 5 giây.. Vui lòng đợi!"
 call_6 : "Tài khoản Trợ lý[{0}] Đã tham gia thành công.\n\nStarting Music Now"
-call_7 : "**Harmful Admin Right Given **\n\nPlease remove **BAN USERS** rights from the bot."
-call_8 : "**Harmful Admin Right Given **\n\nPlease remove **ADD NEW ADMINS** rights from the bot."
+call_7 : "**Quyền quản trị có hại được trao **\n\nVui lòng xóa **BAN USERS** quyền từ bot."
+call_8 : "**Quyền quản trị có hại được trao **\n\nVui lòng xóa **ADD NEW ADMINS** quyền từ bot."
 call_9 : "**Failed to switch Stream**\nPlease use /skip to change track again."
 call_10 : "Downloading Next Track from Playlist"
 call_11 : "Please add @{0} to your channel[ ID: {1}].\n\nBot is not able to get channel details."
@@ -74,7 +74,7 @@ admin_34 : "Failed to seek the current stream."
 # Bot 
 
 # Start
-start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
+start_1 : "Cảm ơn vì đã đưa tôi vào {0}.\n{1} đang hoạt động.\n\nFor any assistance or help, checkout our support group and channel."
 start_2 : "Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups."
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
@@ -200,7 +200,7 @@ tracks_2 : "**Error**\n\nThere's no **{0} Top 10 Playlist** on bot's servers. Pl
 #Lyrics
 lyrics_1 : "**Usage:**\n\n/lyrics [ Music Name]"
 lyrics_2 : "Searching Lyrics"
-lyrics_3 : "❌ Failed to fetch lyrics😭.\n\n💡**Tried Searching For:** {0}"
+lyrics_3 : "❌ Failed to fetch lyrics😭.\n\n💡**Đã cố gắng tìm kiếm:** {0}"
 lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam types lyrics search."
 
 #Ping
