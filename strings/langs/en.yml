@@ -21,9 +21,9 @@ call_5 : "Tài khoản Trợ lý sẽ tham gia sau 5 giây.. Vui lòng đợi!"
 call_6 : "Tài khoản Trợ lý[{0}] Đã tham gia thành công.\n\nStarting Music Now"
 call_7 : "**Quyền quản trị có hại được trao **\n\nVui lòng xóa **BAN USERS** quyền từ bot."
 call_8 : "**Quyền quản trị có hại được trao **\n\nVui lòng xóa **ADD NEW ADMINS** quyền từ bot."
-call_9 : "**Failed to switch Stream**\nPlease use /skip to change track again."
-call_10 : "Downloading Next Track from Playlist"
-call_11 : "Please add @{0} to your channel[ ID: {1}].\n\nBot is not able to get channel details."
+call_9 : "**Không chuyển được Luồng**\nHãy sử dụng /skip để thay đổi bài hát một lần nữa."
+call_10 : "Tải xuống bản nhạc tiếp theo từ danh sách phát"
+call_11 : "Vui lòng thêm @{0} đến kênh của bạn [ID: {1}].\n\nBot không thể nhận thông tin chi tiết về kênh."
 
 # PLUGINS - Auth.py
 auth_1 : "Bạn chỉ có thể có 20 người dùng trong Danh sách người dùng được ủy quyền của nhóm bạn (AUL)"
@@ -37,7 +37,7 @@ auth_8 : "┗ Thêm bởi:-"
 
 # PLUGINS - Admins
 admin_1 : "Music is already Paused."
-admin_2 : "🎧 Voicechat Paused by {}!"
+admin_2 : "🎧 Trò chuyện thoại bị Tạm dừng bởi {}!"
 admin_3 : "Music is already resumed."
 admin_4 : "🎧 Voicechat Resumed by {}!"
 admin_5 : "Music is already muted."
@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Cảm ơn vì đã đưa tôi vào {0}.\n{1} đang hoạt động.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups."
+start_2 : "Xin chào! Tên tôi là {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nHãy thêm tôi vào nhóm của bạn."
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
@@ -142,7 +142,7 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Processing Query... Please Wait!"
+play_1 : "🔄 Đang xử lý truy vấn ... Vui lòng đợi!"
 play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
@@ -152,9 +152,9 @@ play_7 : "Sorry! Bot only allows limited number of video calls due to CPU overlo
 play_8 : "Not A Valid Video File Extension!\n\n**Supported Formats:** {0}"
 play_9 : "Video File Size Should Be Less Than 1 GiB"
 play_10 : "**Youtube Playlist Feature**\n\nSelect the Mode in which you want to play whole Youtube Playlist"
-play_11 : "📎Title: **{0}\n\n⏳Duration:** {1} Mins"
-play_12 : "**Spotify Play Mode**\n\nRequested By:- {0}"
-play_13 : "**Apple Playlists**\n\nRequested By:- {0}"
+play_11 : "📎Tiêu đề: **{0}\n\n⏳Thời lượng:** {1} phút"
+play_12 : "**Spotify Play Mode**\n\nBy:- {0}"
+play_13 : "**Apple Playlists**\n\nBy:- {0}"
 play_14 : "**Unable to verify the URL.**\nBot wonders if this url belongs to any of the following platforms: Youtube, AppleMusic, Spotify, Resso and Soundcloud.\n\nYou can use /stream for M3u8 or Remote Links."
 play_15 : "**Live Stream Detected**\n\nSystems have detected your track link as live stream. Want to play live stream ?"
 play_16 : "Failed to fetch track details. Try playing any other."
@@ -163,7 +163,7 @@ play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an
 
 
 #Playlist
-playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
+playlist_1 : "**Sử dụng:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"
