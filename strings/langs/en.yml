@@ -222,17 +222,17 @@ song_10 : "Failed to upload on telegram from servers."
 song_11 : "Uploading Started\n\nUploading speed could be slow. Please hold on.."
 
 # Tools - Queue
-queue_1 : "Please Wait..Fetching Queue.."
+queue_1 : "Vui lòng đợi..Tìm hàng đợi.."
 queue_2 : "Queued List is empty. No tracks found"
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2}\n👤**Added By:** {3}"
-queue_5 : "Only one track inside queue, Please add some more to check list"
+queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Thời lượng:** {2}\n👤**By:** {3}"
+queue_5 : "Only one track inside queue, Vui lòng thêm một số khác để kiểm tra danh sách"
 
 # All Streaming Lines
-stream_1 : "📡 **Started Streaming** 💡\n\n👤**Requested By:** {0}\n🔦**Information: **[Here]({1})"
-stream_2 : "📡 **Started Streaming via URL ** 💡\n\n👤**Requested By:** {0}"
-stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
-stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n??**Requested By:** {3}"
+stream_1 : "📡 **Đã bắt đầu phát trực tuyến** 💡\n\n👤**By:** {0}\n🔦**Thông tin: **[Xem thông tin](https://tgram.vn)"
+stream_2 : "📡 **Đã bắt đầu phát trực tuyến từ URL** 💡\n\n👤**By:** {0}"
+stream_3 : "📡 **Đã bắt đầu phát trực tuyến** 💡\n\n**🏷Tiêu đề:** {0}\n⌛️**Thời lượng**: {1}\n👤**Bu:** {2}"
+stream_4 : "📡 **Đã bắt đầu phát trực tuyến** 💡\n\n**🏷Tiêu đề:** [{0}]({1})\n⌛️**Thời lượng**: {2}\n??**By:** {3}"
 
 # Inline Buttons
 
